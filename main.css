@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "Josefin";
+    src: url("/tempAssets/font/Josefin_Slab/JosefinSlab-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Advent-Pro";
+    src: url("/tempAssets/font/Advent_Pro/AdventPro-Thin.ttf");
+}
+
+@font-face {
+    font-family: "Poiret";
+    src: url("/tempAssets/font/Poiret_One/PoiretOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Wire-One";
+    src: url("/tempAssets/font/Wire_One/WireOne-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Advent-Pro";
+}
+
+.slider {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    margin: -1em 0 0 0;
+}
+
+.slider figure div {
+    float: left;
+    width: 20%;
+    margin: 0;
+}
+
+.slider figure img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 0;
+}
+
+.slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    animation: animate 20s infinite;
+    margin: 0;
+}
+
+p {
+    position: fixed;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 70px;
+    padding-top: 12em;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.rightnav {
+    float: right;
+    margin-top: 3.5em;
+}
+
+ul .rightnav {
+    align-items: center;
+}
+
+.leftnav {
+    text-align: center;
+}
+
+.social {
+    height: 1.5em;
+    margin-bottom: 1em;
+    border: none;
+    border-style: none;
+}
+
+h2 {
+    font-size: 30px;
+    color: floralwhite;
+    padding: .3em 0em .3em 0em;
+    text-align: center;
+    border: 2px;
+    border-style: solid;
+    background-color: rgb(56, 52, 52);
+    position: relative;
+    border-radius: .5em;
+}
+
+div h2 {
+    margin: 0 42%;
+}
+
+
+header {
+    margin: 1em 1em;
+}
+
+ul {
+    list-style: none;
+    padding: .5em;
+    font-size: 30px;
+}
+
+ul li {
+    padding: .5em;
+}
+
+.leftnav li{
+    margin: .5em;
+}
+
+.leftnav li a {
+    border: 1px;
+    border-bottom: solid;
+    border-color: beige;
+    padding: .3em;
+}
+
+.leftnav a:hover {
+    background-color: floralwhite;
+    color: black;
+    border: solid;
+    border-color: beige;
+}
+
+#soc a, #soc a:hover {
+    border: none !important;
+    background: transparent !important;
+}
+
+
+ul a {
+    text-decoration: none;
+    color: beige;
+}
+
+.rightnav a:hover {
+    text-decoration: overline;
+}
+
+
+@keyframes animate {
+    0% {left: 0%;}
+    10% {left: 0%;}
+    12% {left: -100%;}
+    22% {left: -100%;}
+    24% {left: -200%;}
+    34% {left: -200%;}
+    36% {left: -300%;}
+    46% {left: -300%;}
+    48% {left: -400%;}
+    58% {left: -400%;}
+    60% {left: -300%;}
+    70% {left: -300%;}
+    72% {left: -200%;}
+    82% {left: -200%;}
+    84% {left: -100%;}
+    94% {left: -100%;}
+    96% {left: 0;}
+}
+
+
