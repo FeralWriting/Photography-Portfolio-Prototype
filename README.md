@@ -2,7 +2,7 @@
 
 ## Overview
 
-Prototype of a Photography Portfolio Website. It would be a website for photographers to display their projects and talents. This was a commission from a client and I was given permission to display it. This website just contains a home page currently. This project incorporated HTML and CSS and gave me experience with a background slideshow effect. The website can be viewed [here](https://mellow-level-clam.glitch.me).
+Prototype of a Photography Portfolio Website. It would be a website for photographers to display their projects and talents. This was a commission from a client and I was given permission to display it. This website just contains a home page currently. This project incorporated HTML and CSS and gave me experience with a background slideshow effect. The website can be viewed [here](https://mellow-level-clam.glitch.me/main.html).
 
 ## Features:
 
